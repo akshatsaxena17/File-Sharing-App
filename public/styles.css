@@ -1,0 +1,119 @@
+.header{
+    display:flex;
+    height:14vh;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+    background-color:rgb(174, 188, 253);
+}
+
+.lefthead{
+    display: flex;
+    align-items: center;
+}
+.uploadimg{
+    height:100px;
+    width:100px;
+}
+.githubimg{
+    height:50px;
+    width:50px;
+}
+.linkedimg{
+    height:40px;
+    width:40px;
+}
+.giticon,.linkedin{
+    margin: 10px;
+    float: right;
+}
+.github{
+    display:flex;
+    align-items: center;
+    margin-right:0px;
+    height: 100px;
+    width: 150px;
+}
+.main{
+    height:60%;
+    display: flex;
+}
+@media only screen and (max-width: 850px) {
+    .main{
+        height:60%;
+        display: block;
+    }
+    
+  }
+
+.img{
+    display:flex;
+    justify-content:center;
+    margin-left: 10%;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+}
+.gif{
+    float:right;
+    margin-top: 60px;
+    margin-right: 20px;
+}
+.uploadsect{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.b,.input{
+   float: left;
+}
+.input{
+    padding-top:2px;
+}
+.writeup{
+    margin-top:50px;
+    margin-left:50px;
+}
+.write{
+    font-family: Pacifico;
+    font-size:40px;
+}
+.download{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:86vh;
+}
+
+.box{
+    height:80%;
+    width:60%;
+    border: 5px solid black;
+    border-radius:20px;
+}
+#dowimg{
+    height:70%;
+    width:30%;
+}
+.img2{
+    height:70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    height:30%;
+    display: block;
+    text-align: center;
+    
+}
+.linktext{
+    height:50%;
+}
+#p1{
+    margin: 0;
+    font-family:Fredoka One;
+    font-size:40px;
+}
